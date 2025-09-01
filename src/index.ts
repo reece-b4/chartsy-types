@@ -38,7 +38,7 @@ export interface SingleItemData extends SingleItemDataInput {
 
 export type ItemDataArray = SingleItemData[];
 
-export type itemDataType = "text" | "image" | "file";
+export type ItemDataType = "text" | "image" | "file";
 
 export interface AppError extends Error {
   status?: number;
