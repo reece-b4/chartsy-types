@@ -1,4 +1,5 @@
 export interface CollectionInput {
+  id?: number;
   collection_name: string;
   icon?: string | null;
 }
@@ -11,6 +12,7 @@ export interface Collection extends CollectionInput {
 export type Collections = Collection[];
 
 export interface ItemInput {
+  id?: number;
   collection_id: number;
   item_name: string;
   icon?: string | null;
@@ -25,6 +27,7 @@ export interface Item extends ItemInput {
 export type Items = Item[];
 
 export interface SingleItemDataInput {
+  id?: number;
   item_id: number;
   data_type: string;
   data_body: string;
