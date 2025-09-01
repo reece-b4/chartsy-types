@@ -1,6 +1,6 @@
 {
   "name": "chartsy-types",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "types for chartsy BE/FE",
   "types": "dist/index.d.ts",
   "exports": {
