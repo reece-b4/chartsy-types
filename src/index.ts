@@ -10,10 +10,10 @@ export interface Collection extends CollectionInput {
 
 export type Collections = Collection[];
 
-
 export interface ItemInput {
   collection_id: number;
   item_name: string;
+  icon: string | null;
 }
 
 export interface Item extends ItemInput {
