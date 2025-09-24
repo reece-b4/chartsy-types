@@ -6,7 +6,7 @@ export interface CollectionInput {
 
 export interface Collection extends CollectionInput {
   id: number;
-  created_at: Date;
+  created_at: string;
 }
 
 export type Collections = Collection[];
@@ -20,8 +20,8 @@ export interface ItemInput {
 
 export interface Item extends ItemInput {
   id: number;
-  created_at: Date;
-  updated_at: Date;
+  created_at: string;
+  updated_at: string;
 }
 
 export type Items = Item[];
@@ -35,8 +35,8 @@ export interface SingleItemDataInput {
 
 export interface SingleItemData extends SingleItemDataInput {
   id: number;
-  created_at: Date;
-  updated_at: Date;
+  created_at: string;
+  updated_at: string;
 }
 
 export type ItemDataArray = SingleItemData[];
